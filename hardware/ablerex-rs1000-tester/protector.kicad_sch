@@ -4913,7 +4913,6 @@
 	(symbol
 		(lib_id "Comparator:LM339")
 		(at 129.54 86.36 0)
-		(mirror x)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4921,7 +4920,7 @@
 		(dnp no)
 		(uuid "c4fb5152-572d-4549-a8ee-e08d88366b77")
 		(property "Reference" "U9"
-			(at 133.858 82.804 0)
+			(at 133.858 89.916 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4929,7 +4928,7 @@
 			)
 		)
 		(property "Value" "LM339"
-			(at 135.636 88.9 0)
+			(at 135.636 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4937,7 +4936,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 88.9 0)
+			(at 128.27 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4946,7 +4945,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lm139.pdf"
-			(at 130.81 91.44 0)
+			(at 130.81 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)

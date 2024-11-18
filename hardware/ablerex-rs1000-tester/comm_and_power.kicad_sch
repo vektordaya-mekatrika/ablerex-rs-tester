@@ -5635,6 +5635,16 @@
 	)
 	(wire
 		(pts
+			(xy 19.05 177.8) (xy 19.05 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31258d1c-7f98-4b54-85c0-e9b8810212ac")
+	)
+	(wire
+		(pts
 			(xy 246.38 133.35) (xy 261.62 133.35)
 		)
 		(stroke
@@ -5882,16 +5892,6 @@
 			(type default)
 		)
 		(uuid "4859dfd0-ff02-4b88-9a6f-d00d0f9ad4f8")
-	)
-	(wire
-		(pts
-			(xy 27.94 176.53) (xy 30.48 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "492e5d58-599b-46eb-a09a-788f35fb85d8")
 	)
 	(wire
 		(pts
@@ -6192,6 +6192,16 @@
 			(type default)
 		)
 		(uuid "6b21b1a8-e093-44ba-bc61-fbff1062edb9")
+	)
+	(wire
+		(pts
+			(xy 19.05 179.07) (xy 29.21 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b511851-9dc9-4b34-8536-9e5492919249")
 	)
 	(wire
 		(pts
@@ -6675,6 +6685,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 176.53) (xy 30.48 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abd83684-5db5-4622-9a8a-27f23dbc6b69")
+	)
+	(wire
+		(pts
 			(xy 248.92 55.88) (xy 246.38 55.88)
 		)
 		(stroke
@@ -7012,6 +7032,16 @@
 			(type default)
 		)
 		(uuid "d2c27718-84d7-4511-b2f5-120205467e8f")
+	)
+	(wire
+		(pts
+			(xy 29.21 179.07) (xy 29.21 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d556fa64-8772-4e3e-9034-5291067f73f8")
 	)
 	(wire
 		(pts
@@ -8091,24 +8121,24 @@
 			)
 		)
 	)
-	(global_label "Power_ON"
+	(global_label "I_UC3845(POWER) Power ON"
 		(shape input)
-		(at 27.94 176.53 180)
+		(at 19.05 177.8 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "d54d525f-4136-48b6-beb2-7a73eb08c112")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 15.7019 176.53 0)
+			(at 19.05 147.4191 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
